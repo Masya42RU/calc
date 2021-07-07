@@ -1,0 +1,15 @@
+
+$ cd ~/Desktop/test/
+
+$ ssh -T git@github.com
+
+$ git clone git@github.com:Masya42RU/calc.git
+
+$ git remote set-url origin git@github.com:Masya42RU/calc.git
+
+$ git add -A
+
+$ git commit -am "test ssh"
+
+$ git push origin master
+
